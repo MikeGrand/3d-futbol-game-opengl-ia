@@ -149,12 +149,13 @@ Optimización del rendimiento gráfico
 
 Mejora de colisiones y físicas
 
+## Conclusión
+
+Este proyecto demuestra la integración efectiva de Inteligencia Artificial clásica y gráficos 3D, logrando un sistema interactivo donde los enemigos no siguen reglas simples, sino que razonan y toman decisiones basadas en la simulación de estados futuros. Es un ejemplo claro de cómo los algoritmos de búsqueda pueden aplicarse en videojuegos para crear comportamientos realistas e inteligentes, y representa una base sólida para proyectos más complejos en el área de desarrollo de videojuegos e IA.
+
+
 ## Ejecución
 ```bash
 pip install -r requirements.txt
 python src/main.py
-
-## Conclusión
-
-Este proyecto demuestra la integración efectiva de Inteligencia Artificial clásica y gráficos 3D, logrando un sistema interactivo donde los enemigos no siguen reglas simples, sino que razonan y toman decisiones basadas en la simulación de estados futuros. Es un ejemplo claro de cómo los algoritmos de búsqueda pueden aplicarse en videojuegos para crear comportamientos realistas e inteligentes, y representa una base sólida para proyectos más complejos en el área de desarrollo de videojuegos e IA.
 
