@@ -5,6 +5,16 @@ Este proyecto consiste en el desarrollo de un videojuego 3D interactivo implemen
 
 El objetivo principal del proyecto es integrar gráficos 3D, lógica de juego y toma de decisiones inteligente, demostrando cómo un agente artificial puede evaluar múltiples estados futuros y seleccionar acciones óptimas en tiempo real dentro de un entorno virtual.
 
+## Objetivos del Proyecto
+
+- Implementar un videojuego funcional en 3D
+
+- Aplicar Inteligencia Artificial clásica en un entorno interactivo
+
+- Integrar algoritmos de búsqueda con gráficos en tiempo real
+
+- Demostrar habilidades en programación, lógica y diseño de sistemas
+
 ## Inteligencia Artificial Implementada
 
 La IA del proyecto se basa en el algoritmo Alfa-Beta, una optimización del algoritmo Minimax, ampliamente utilizado en juegos de estrategia y toma de decisiones.
@@ -47,13 +57,104 @@ Los rivales utilizan:
 - Evaluación por distancia al jugador
 - Algoritmo Alfa-Beta con profundidad configurable
 
-## Tecnologías
-- Python 3
-- Pygame
-- PyOpenGL
-- NumPy
+## Mecánicas de Juego
+
+- Control del jugador en un entorno 3D
+
+- Movimiento libre dentro de límites definidos
+
+- Enemigos controlados por IA
+
+- Sistema de persecución inteligente
+
+- Colisiones y límites del escenario
+
+- Interacción en tiempo real entre jugador y agentes enemigos
+
+## Gráficos y Renderizado
+
+El apartado gráfico del proyecto está desarrollado con OpenGL, incluyendo:
+
+- Renderizado de modelos 3D (.OBJ)
+
+- Texturizado de superficies
+
+- Manejo de cámara y perspectiva
+
+- Control de iluminación
+
+- Uso de librerías auxiliares para carga de modelos y texturas
+
+Esto permite crear un entorno visual interactivo donde la lógica de la IA se manifiesta de forma clara y observable.
+
+## Arquitectura del Proyecto
+
+El proyecto está estructurado para separar responsabilidades:
+
+- Lógica de IA.
+
+- Algoritmos de búsqueda, heurísticas y toma de decisiones.
+
+- Entidades del juego.
+
+- Jugador, enemigos y sus propiedades.
+
+- Motor gráfico.
+
+-Renderizado, manejo de cámara y escena.
+
+- Control del juego.
+
+- Entrada del usuario, actualización de estados y bucle principal.
+
+## Esta separación facilita:
+
+- Mantenimiento
+
+- Escalabilidad
+
+- Comprensión del código
+
+## Pruebas y Simulación
+
+El proyecto incluye módulos de prueba que permiten ejecutar el algoritmo de IA de forma aislada, sin necesidad de cargar el entorno gráfico, esto permite:
+
+-Validar la lógica de decisión
+
+- Ajustar la heurística
+
+- Depurar errores de comportamiento
+
+# Tecnologías Utilizadas
+
+Lenguaje: Python
+
+Gráficos: OpenGL
+
+IA: Minimax con poda Alfa-Beta
+
+Modelos 3D: Archivos OBJ
+
+Matemáticas: Distancia euclidiana, árboles de decisión
+
+## Posibles Mejoras Futuras
+
+Implementación de múltiples niveles
+
+Ajuste dinámico de dificultad
+
+IA con aprendizaje (reinforcement learning)
+
+Optimización del rendimiento gráfico
+
+Mejora de colisiones y físicas
 
 ## Ejecución
 ```bash
 pip install -r requirements.txt
 python src/main.py
+
+## Conclusión
+
+Este proyecto demuestra la integración efectiva de Inteligencia Artificial clásica y gráficos 3D, logrando un sistema interactivo donde los enemigos no siguen reglas simples, sino que razonan y toman decisiones basadas en la simulación de estados futuros. Es un ejemplo claro de cómo los algoritmos de búsqueda pueden aplicarse en videojuegos para crear comportamientos realistas e inteligentes, y representa una base sólida para proyectos más complejos en el área de desarrollo de videojuegos e IA.
+
