@@ -132,6 +132,20 @@ Este sistema incluye:
 
 Esto añade una mecánica estratégica al movimiento del jugador.
 
+## Interacción con el Entorno (Disparo)
+
+- El jugador puede disparar el balón en la dirección en la que se encuentra mirando, activando una trayectoria tridimensional que incluye movimiento en los ejes X, Y y Z.
+
+El disparo puede producir distintos resultados:
+
+- Gol
+
+- Rebote en el poste
+
+- Atajada del portero
+
+Cada disparo representa una acción directa del jugador que impacta el estado del juego.
+
 ## Esta separación facilita:
 
 - Mantenimiento
