@@ -156,6 +156,20 @@ Cuando el jugador anota un gol:
 
 Esto permite una experiencia dinámica en la que el desempeño del jugador influye directamente en el desafío.
 
+## Sistema de Vidas
+
+- El jugador cuenta con un número limitado de vidas.
+
+Si un rival controlado por IA colisiona con el jugador:
+
+- Se pierde una vida
+
+- El jugador es reposicionado al centro del campo
+
+- El estado del juego se reinicia parcialmente
+
+Este sistema introduce riesgo y penalización por errores.
+
 ## Esta separación facilita:
 
 - Mantenimiento
