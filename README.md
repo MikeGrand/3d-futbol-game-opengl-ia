@@ -119,6 +119,19 @@ El jugador se desplaza libremente por el escenario utilizando el teclado:
 
 El movimiento es continuo y está basado en la dirección actual de la cámara, lo que permite una experiencia de control fluida y natural.
 
+## Sistema de Velocidad
+
+El jugador puede activar un aumento temporal de velocidad, lo que permite desplazarse más rápido durante un corto periodo de tiempo.
+Este sistema incluye:
+
+- Duración limitada del aumento
+
+- Temporizador de recuperación
+
+- Restablecimiento automático de la velocidad normal
+
+Esto añade una mecánica estratégica al movimiento del jugador.
+
 ## Esta separación facilita:
 
 - Mantenimiento
