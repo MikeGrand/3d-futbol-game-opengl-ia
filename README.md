@@ -146,6 +146,16 @@ El disparo puede producir distintos resultados:
 
 Cada disparo representa una acción directa del jugador que impacta el estado del juego.
 
+## Sistema de Puntuación y Dificultad
+
+Cuando el jugador anota un gol:
+
+- Se generan nuevos rivales en el campo
+
+- Aumenta progresivamente la dificultad del juego
+
+Esto permite una experiencia dinámica en la que el desempeño del jugador influye directamente en el desafío.
+
 ## Esta separación facilita:
 
 - Mantenimiento
