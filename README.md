@@ -107,6 +107,18 @@ El proyecto está estructurado para separar responsabilidades:
 
 - Entrada del usuario, actualización de estados y bucle principal.
 
+## Control y Movimiento
+
+El jugador se desplaza libremente por el escenario utilizando el teclado:
+
+- W / S → Avanzar y retroceder
+
+- A / D → Desplazamiento lateral
+
+- Mouse → Rotación y orientación de la cámara
+
+El movimiento es continuo y está basado en la dirección actual de la cámara, lo que permite una experiencia de control fluida y natural.
+
 ## Esta separación facilita:
 
 - Mantenimiento
